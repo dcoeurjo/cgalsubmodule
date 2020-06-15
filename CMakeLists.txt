@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(deps)
 
+##unsure about the PATHs stuff...
 find_package(CGAL REQUIRED COMPONENTS Core PATHS "${PROJECT_BINARY_DIR}/deps/cgal")
 
 add_executable(simpleTest simpleTest)
